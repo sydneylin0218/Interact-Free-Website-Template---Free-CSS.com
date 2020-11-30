@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<mata charset = "utf-8">
+		<title>108206008</title>
+	</head>
+
+	<body>
+	<form method="post" action="http://xxx.com">
+		<p>
+		  *Store name: <input type="text" name="snm">
+		<p/>
+		<>
+
+</body>
+
+</html>

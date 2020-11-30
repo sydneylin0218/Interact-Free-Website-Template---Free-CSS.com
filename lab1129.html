@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<mata charset = "utf-8">
+		<title>Feedback Form</title>
+	</head>
+
+	<body>
+
+	<H1>Feedback Form</H1>
+	<p>Please fill out this form to help us improve our site.</p>
+
+	<form action="/action_page.php" method="post" >
+		<label for="name">Name:</label>
+		<input type="text" name="name"><br><br>
+	</form>
+
+	<form action="/action_page.php">
+	<label for="comments">Comments:</label><br>
+	 <textarea id="comments" name="comments" rows="6" cols="40">Enter comments here.
+	</textarea><br><br>
+	</form>
+
+	<form action="/action_page" method="post">
+		<label for="e_addr">E-mail Address:</label>
+		<input type="text" name="e_addr"><br><br>
+	 </form>
+	<B>Things you liked:</B>
+	<form action="/action_page.php">
+		<input type="checkbox" id="things1" name="things1" value="sitedesign" >
+		<label for="things1">Site design</label>
+		<input type="checkbox" id="things2" name="things2" value="links">
+		<label for="things2">Links</label>
+		<input type="checkbox" id="things3" name="things3" value="eou">
+		<label for="things3">Ease of use</label>
+		<input type="checkbox" id="things4" name="things4" value="lmages">
+		<label for="things4">Images</label>
+		<input type="checkbox" id="things5" name="things5" value="sourcecode">
+		<label for="things5">Source code</label><br><br>
+	</form>
+	<B>How did you get to our site?:</B>
+
+	<form action="/action_page.php">
+		<input type="radio" id="path1" name="path1" value="searchengine" >
+		<label for="path1">Search engine</label>
+		<input type="radio" id="path2" name="path2" value="anothersite" >
+		<label for="path2">Links from another site</label>
+		<input type="radio" id="path3" name="path3" value="deitel" >
+		<label for="path3">Deitel.com Web site</label>
+		<input type="radio" id="path4" name="path4" value="book" >
+		<label for="path4">Reference in a book</label>
+		<input type="radio" id="path5" name="path5" value="other" >
+		<label for="path5">Other</label><br><br>
+	</form>
+	<form action="">
+		<label for="rate">Rate our website:</label>
+		<select name="rate" id="rate">
+			<option value="amazing" selected>Amazing</option>
+			<option value="soso">So so</option>
+			<option value="terrible">Terrible</option>
+		</select>
+		<br><br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Clear">
+	</form>
+</body>
+</html>
