@@ -1,0 +1,37 @@
+	<style type="text/css">
+
+	img{
+		margin-right: 40px;
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.pahClass {
+		font-weight:bold;
+		background-color: pink;
+	}
+
+	#pah1 {
+		font-size: 40px;
+	}
+
+	h1{
+		background-color: pink;
+	}
+
+	h2{
+		color: green;
+	}
+
+	h3{
+		font-size: 15px;
+	}
+
+	h4{
+
+	}
+
+	 em{
+		color: green
+	}
+	</style>
