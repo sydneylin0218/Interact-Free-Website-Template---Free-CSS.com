@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<mata charset = "utf-8">
+		<title>測試</title>
+		
+	</head>
+	
+	<body>
+		
+
+
+		<script type="text/javascript">
+
+			var guess = window.prompt("guess a number!");
+			var value;
+			var numGuess;
+
+			value = document.write('<p>' + Math.floor(Math.random()* 10 + 1) + '</p>' );
+
+			numGuess = parseInt (guess);
+            
+            for (i=0; i<10; i++){
+
+
+			if (numGuess == 7 ){
+				alert("congratulation!");
+				break;
+			}
+
+			else 
+			{
+				guess = window.prompt("try again");
+			
+			}
+}
+
+
+		</script>
+
+	</body>
+	
+
+</html>

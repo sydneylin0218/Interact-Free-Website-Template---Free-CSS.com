@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<mata charset = "utf-8">
+		<title>HW1211</title>
+		
+	</head>
+	
+	<body>
+		
+
+
+		<script type="text/javascript">
+
+			var guess;
+			var value;
+			var numGuess;
+
+			guess = window.prompt("guess a number!");
+
+
+
+			value = document.write('<p>' + Math.floor(Math.random()* 10 + 1) + '</p>' );
+
+			numGuess = parseInt (guess);
+
+
+
+			if (numGuess == value ){
+				alert("congratulation!")
+			}
+
+			while (numGuess!= value )
+
+			{
+				guess = window.prompt("try again")
+			
+			}
+	
+
+
+
+		</script>
+
+	</body>
+	
+
+</html>
